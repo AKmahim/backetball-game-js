@@ -14,4 +14,4 @@ This game is a frontend browser game built with JavaScript, Phaser, and Canvas.
 - Motion tweens of happy or sad emojis appear based on success of the shot
 - Besides the first shot, ball spawns in random locations
 
-[basketball]: http://AKmahim.github.io/basketball-game-js/
+[basketball]: http://AKmahim.github.io/backetball-game-js/
