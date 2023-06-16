@@ -4,7 +4,7 @@
 
 [Basketball][basketball]
 
-A remake of Facebook Messenger's basketball game! This game is a frontend browser game built with JavaScript, Phaser, and Canvas.
+This game is a frontend browser game built with JavaScript, Phaser, and Canvas.
 
 ## Features
 - Ball is shot in a direction based on the cursor's movement
@@ -14,4 +14,4 @@ A remake of Facebook Messenger's basketball game! This game is a frontend browse
 - Motion tweens of happy or sad emojis appear based on success of the shot
 - Besides the first shot, ball spawns in random locations
 
-[basketball]: http://bonbonlemon.github.io/basketball/
+[basketball]: http://AKmahim.github.io/basketball-game-js/
