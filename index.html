@@ -3,6 +3,15 @@
 <head>
 	<meta charset="UTF-8" />
     <title>Basketball Game</title>
+	<!-- Mobile Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	
+	<!-- Apple Mobile Web Capability -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	
+	<meta name="full-screen" content="yes"/>
+	<meta name="screen-orientation" content="portrait"/>
+	
 	<script type="text/javascript" src="js/phaser.min.js"></script>
 	<h2>Basketball Game</h2>
     <style type="text/css">
@@ -33,8 +42,8 @@ var game = new Phaser.Game(400, 625, Phaser.CANVAS, '', { preload: preload, crea
 
 function preload() {
 
-    game.load.image('ball', 'assets/images/ball.png');
-    game.load.image('hoop', 'assets/images/hoop.png');
+    	game.load.image('ball', 'assets/images/ball.png');
+    	game.load.image('hoop', 'assets/images/hoop.png');
 		game.load.image('side rim', 'assets/images/side_rim.png');
 		game.load.image('front rim', 'assets/images/front_rim.png');
 
@@ -89,8 +98,8 @@ function create() {
 
 	game.physics.p2.setImpactEvents(true);
 
-  game.physics.p2.restitution = 0.63;
-  game.physics.p2.gravity.y = 0;
+  	game.physics.p2.restitution = 0.63;
+  	game.physics.p2.gravity.y = 0;
 
 	collisionGroup = game.physics.p2.createCollisionGroup();
 
